@@ -1,0 +1,8 @@
+
+import { Container } from './styles';
+
+export default function Transactions() {
+  return (
+    <div>Transactions</div>
+  )
+}
