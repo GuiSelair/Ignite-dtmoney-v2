@@ -1,8 +1,12 @@
 
-import { Container } from './styles';
+import Header from '../../components/Header';
+import Summary from '../../components/Summary';
 
 export default function Transactions() {
   return (
-    <div>Transactions</div>
+    <div>
+      <Header/>
+      <Summary/>
+    </div>
   )
 }
