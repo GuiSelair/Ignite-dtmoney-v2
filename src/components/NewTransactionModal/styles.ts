@@ -51,8 +51,13 @@ export const Form = styled.form`
         cursor: pointer;
         transition: all .2s;
 
-        &:hover {
+        &:not(:disabled):hover {
             background: ${props => props.theme['green-700']};
+        }
+
+        &:disabled{
+          cursor: not-allowed;
+          opacity: 0.6;
         }
     }
 `
