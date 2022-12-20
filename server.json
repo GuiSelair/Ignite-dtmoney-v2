@@ -1,20 +1,36 @@
 {
-    "transactions": [
-        {
-            "id": 1,
-            "description": "Desenvolvimento de site",
-            "type": "income",
-            "category": "Venda",
-            "price": 1000,
-            "createdAt": "2022-07-29T19:36:44.505Z"
-        },
-        {
-            "id": 2,
-            "description": "Jantar",
-            "type": "outcome",
-            "category": "Alimentação",
-            "price": 50,
-            "createdAt": "2022-07-30T21:00:44.505Z"
-        }
-    ]
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 1000,
+      "createdAt": "2022-07-29T19:36:44.505Z"
+    },
+    {
+      "id": 2,
+      "description": "Jantar",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 50,
+      "createdAt": "2022-07-30T21:00:44.505Z"
+    },
+    {
+      "description": "Xis",
+      "price": 55,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2022-12-20T17:00:20.247Z",
+      "id": 3
+    },
+    {
+      "description": "Mouse",
+      "price": 542,
+      "category": "Trabalho",
+      "type": "outcome",
+      "createdAt": "2022-12-20T17:11:05.751Z",
+      "id": 4
+    }
+  ]
 }
