@@ -1,12 +1,12 @@
-import * as Dialog from '@radix-ui/react-dialog';
-import { useState } from 'react';
+import * as Dialog from '@radix-ui/react-dialog'
+import { useState } from 'react'
 
-import logo from '../../assets/logo.svg';
-import NewTransactionModal from '../NewTransactionModal';
-import { Container, Content, NewTransactionButton } from './styles';
+import logo from '../../assets/logo.svg'
+import NewTransactionModal from '../NewTransactionModal'
+import { Container, Content, NewTransactionButton } from './styles'
 
 export default function Header() {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(false)
 
   return (
     <Container>

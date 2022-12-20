@@ -1,19 +1,19 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.form`
   display: flex;
   gap: 1rem;
-  
+
   input {
     flex: 1;
     border-radius: 6px;
     border: 0;
-    background: ${props => props.theme['gray-900']};
-    color: ${props => props.theme['gray-300']};
+    background: ${(props) => props.theme['gray-900']};
+    color: ${(props) => props.theme['gray-300']};
     padding: 1rem;
 
     &::placeholder {
-      color: ${props => props.theme['gray-500']};
+      color: ${(props) => props.theme['gray-500']};
     }
   }
 
@@ -25,22 +25,22 @@ export const Container = styled.form`
     border: 0;
     padding: 1rem;
     background: transparent;
-    border: 1px solid ${props => props.theme['green-300']};
-    color: ${props => props.theme['green-300']};
+    border: 1px solid ${(props) => props.theme['green-300']};
+    color: ${(props) => props.theme['green-300']};
     font-weight: bold;
     border-radius: 6px;
     transition: all 0.2s;
     cursor: pointer;
 
     &:not(:disabled):hover {
-      background: ${props => props.theme['green-500']};
-      border: 1px solid ${props => props.theme['green-500']};
-      color: ${props => props.theme.white};
+      background: ${(props) => props.theme['green-500']};
+      border: 1px solid ${(props) => props.theme['green-500']};
+      color: ${(props) => props.theme.white};
     }
 
-    &:disabled{
+    &:disabled {
       opacity: 0.7;
       cursor: not-allowed;
     }
   }
-`;
+`
